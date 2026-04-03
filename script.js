@@ -129,32 +129,5 @@ document.addEventListener("DOMContentLoaded", () => {
         videoObserver.observe(video);
     }
 
-
-    // --- Pre-fill Contact Form on Order Now click ---
-    const orderBtns = document.querySelectorAll('a[href="#contact"]');
-    const productSelect = document.getElementById('product');
-
-    orderBtns.forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            const productName = e.target.getAttribute('data-product');
-            if (productName) {
-                for (let i = 0; i < productSelect.options.length; i++) {
-                    if (productSelect.options[i].value === productName) {
-                        productSelect.selectedIndex = i;
-                        break;
-                    }
-                }
-            }
-        });
-    });
-
-    // --- Form Submission Handling ---
-    const contactForm = document.getElementById('contact-form');
-
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const name = document.getElementById('name').value;
-        alert(`Thank you, ${name}. Your order request has been received. We will contact you shortly to confirm payment and shipping.`);
-        contactForm.reset();
-    });
+    
 });
