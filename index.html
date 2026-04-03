@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeOnlyWin220 | Premium Spirits</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="#home">WeOnlyWin220</a></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#featured">Shop</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span style="width: 20px;"></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Crafted for the Connoisseur</h1>
+            <p>Discover our curated collection of premium whiskies, fine wines, and artisanal spirits from around the globe.</p>
+            <a href="#featured" class="btn btn-primary">Explore Collection</a>
+        </div>
+    </section>
+
+    <section id="featured" class="featured">
+        <h2 class="section-title">Curated Selections</h2>
+        <div class="grid-container">
+            <div class="card">
+                <div class="card-img prod-1"></div>
+                <h3>Highland Single Malt</h3>
+                <p>Notes of oak, dark chocolate, and dried fruit.</p>
+                <span class="price">$55.00</span>
+                <a href="#contact" class="btn btn-outline btn-block" data-product="Highland Single Malt">Order Now</a>
+            </div>
+            <div class="card">
+                <div class="card-img prod-2"></div>
+                <h3>Botanical Dry Gin</h3>
+                <p>Infused with juniper, citrus, and exotic spices.</p>
+                <span class="price">$35.00</span>
+                <a href="#contact" class="btn btn-outline btn-block" data-product="Botanical Dry Gin">Order Now</a>
+            </div>
+            <div class="card">
+                <div class="card-img prod-3"></div>
+                <h3>Vintage Pinot Noir</h3>
+                <p>Rich, full-bodied with a velvet smooth finish.</p>
+                <span class="price">$40.00</span>
+                <a href="#contact" class="btn btn-outline btn-block" data-product="Vintage Pinot Noir">Order Now</a>
+            </div>
+            <div class="card">
+                <div class="card-img prod-4"></div>
+                <h3>Aged Dark Rum</h3>
+                <p>Sweet caramel, molasses, and a hint of vanilla.</p>
+                <span class="price">$38.00</span>
+                <a href="#contact" class="btn btn-outline btn-block" data-product="Aged Dark Rum">Order Now</a>
+            </div>
+            <div class="card">
+                <div class="card-img prod-5"></div>
+                <h3>Premium Vodka</h3>
+                <p>Charcoal filtered for ultimate purity and crispness.</p>
+                <span class="price">$30.00</span>
+                <a href="#contact" class="btn btn-outline btn-block" data-product="Premium Vodka">Order Now</a>
+            </div>
+            <div class="card">
+                <div class="card-img prod-6"></div>
+                <h3>Reserve Tequila Añejo</h3>
+                <p>Aged in oak barrels with notes of roasted agave.</p>
+                <span class="price">$65.00</span>
+                <a href="#contact" class="btn btn-outline btn-block" data-product="Reserve Tequila Añejo">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-showcase" class="video-showcase">
+        <h2 class="section-title">The Art of Pouring</h2>
+        <div class="video-wrapper">
+            <video id="promo-video" controls playsinline>
+                <source src="assets/video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2 class="section-title">What Our Patrons Say</h2>
+        <div class="slider-wrapper">
+            <button class="slider-btn prev" id="prev-btn">&#10094;</button>
+            
+            <div class="slider-track" id="slider-track">
+                <div class="slide active-slide">
+                    <div class="testimonial-card">
+                        <div class="customer-profile">
+                            <img src="assets/rev1.avif" alt="Robert S." class="customer-img">
+                            <div class="customer-info">
+                                <h4>Robert Sherman</h4>
+                                <span class="customer-role">Verified Buyer</span>
+                            </div>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                        <p>"Absolutely exceptional collection. I managed to find a rare Japanese whiskey here that I've been hunting for years. The delivery was perfectly packaged and arrived ahead of schedule."</p>
+                    </div>
+                </div>
+                
+                <div class="slide">
+                    <div class="testimonial-card">
+                        <div class="customer-profile">
+                            <img src="assets/rev2.avif" alt="Amanda M." class="customer-img">
+                            <div class="customer-info">
+                                <h4>Amanda Miller</h4>
+                                <span class="customer-role">Wine Enthusiast</span>
+                            </div>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                        <p>"The best place to buy premium wine. Their recommendations are always spot on for dinner pairings. The customer support team really knows their vintages. Highly recommend WeOnlyWin220."</p>
+                    </div>
+                </div>
+                
+                <div class="slide">
+                    <div class="testimonial-card">
+                        <div class="customer-profile">
+                            <img src="assets/rev3.avif" alt="Victor P." class="customer-img">
+                            <div class="customer-info">
+                                <h4>Victor Palmer</h4>
+                                <span class="customer-role">Verified Buyer</span>
+                            </div>
+                        </div>
+                        <div class="stars">★★★★☆</div>
+                        <p>"Great selection of artisanal gins and craft spirits. The website is easy to navigate and the team was very helpful with my inquiry regarding bulk ordering for a private party."</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="slider-btn next" id="next-btn">&#10095;</button>
+        </div>
+        <div class="dots-container" id="dots-container"></div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Place Your Order</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" required placeholder="(555) 123-4567">
+                    </div>
+                    <div class="form-group">
+                        <label for="product">Select Product</label>
+                        <select id="product" required>
+                            <option value="" disabled selected>Select a spirit to order...</option>
+                            <option value="Highland Single Malt">Highland Single Malt ($55.00)</option>
+                            <option value="Botanical Dry Gin">Botanical Dry Gin ($35.00)</option>
+                            <option value="Vintage Pinot Noir">Vintage Pinot Noir ($40.00)</option>
+                            <option value="Aged Dark Rum">Aged Dark Rum ($38.00)</option>
+                            <option value="Premium Vodka">Premium Vodka ($30.00)</option>
+                            <option value="Reserve Tequila Añejo">Reserve Tequila Añejo ($65.00)</option>
+                            <option value="Other">Other / Bulk Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="quantity">Quantity</label>
+                        <input type="number" id="quantity" min="1" required placeholder="1" value="1">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="address">Delivery Address</label>
+                        <input type="text" id="address" required placeholder="123 Main St, Apt 4B, City, State, ZIP">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message / Order Details</label>
+                        <textarea id="message" rows="4" placeholder="Any special delivery instructions or requests?"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit Order Request</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">WeOnlyWin220</div>
+            <p>456 Bourbon Lane, New York, NY 10012, USA</p>
+            <p>Drink Responsibly. Never drink and drive.</p>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 WeOnlyWin220. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
