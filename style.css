@@ -237,6 +237,9 @@ header {
 .prod-4 {
     background-image: url('assets/product2.jpg');
 }
+.prod-5 {
+    background-image: url('assets/product3.jpg');
+}
 
 
 .card h3 {
